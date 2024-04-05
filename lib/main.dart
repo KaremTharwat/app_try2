@@ -23,7 +23,7 @@ class PlayAudio extends StatelessWidget {
                   () async {
                     final player = AudioPlayer();
                     await player.play(
-                      AssetSource(SoundsNumbers.numberOne),
+                      AssetSource(SoundsNumbers.soundNumberOne),
                     );
                   };
                 },
